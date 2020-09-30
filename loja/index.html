@@ -3,22 +3,89 @@
   <head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" 
+          href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" 
+          integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" 
+          crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link rel="stylesheet" 
+          href="style.css">
 
     <!-- Icones -->
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" 
+          href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" 
+          integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" 
+          crossorigin="anonymous"/>
 
     <title>Loja SolaMentos</title>
   </head>
   <body>
-    <h1>Loja SolaMentos</h1>
 
-    <div class="container">
-      <div class="row">
-        <div class="col-6">
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" 
+       href="#" 
+       id="titulo">SolaMentos</a>
+    <button class="navbar-toggler" 
+          type="button" 
+          data-toggle="collapse" 
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" 
+          aria-expanded="false" 
+          aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon">
+    </span>
+    </button>
+
+    <div class="collapse navbar-collapse" 
+         id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link"
+             href="#">Página inicial 
+            <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" 
+             href="#">Catálogo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" 
+             href="#" 
+             id="navbarDropdown" 
+             role="button" 
+             data-toggle="dropdown" 
+             aria-haspopup="true" 
+             aria-expanded="false">Categorias</a>
+        <div class="dropdown-menu" 
+             aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" 
+             href="#">Feminino</a>
+          <a class="dropdown-item" 
+             href="#">Masculino</a>
+          <a class="dropdown-item" 
+             href="#">Infatil</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" 
+             href="#">Esportes</a>
+        </div>
+        </li>
+      </ul>
+      <div class="form-inline my-2 my-lg-0 badge-light badge-pill"
+           id="carrinho">
+        <i class="fas fa-shopping-cart"></i>
+        <span class="badge bg-warning mt-2 mb-2"> 5 </span>
+      </div>
+    </div>
+  </nav>
+
+    <div class="container text-center">
+      <div class="row mt-2">
+        <div class="col-md-6">
           <div class="card">
 
             <div class="card-header">
@@ -27,31 +94,31 @@
 
             <div class="card-body">
               <img 
-              class="card-img" 
-              src="https://www.donnashape.com/35717-large_default/calca-jeans-labellamafia-mafia-club.jpg"> 
+                class="card-img imagem" 
+                src="https://www.donnashape.com/35717-large_default/calca-jeans-labellamafia-mafia-club.jpg"> 
               
-              <div class="card-title text-center mt-2">
+              <div class="card-title mt-2">
                 <div class="badge badge-dark badge-pill">
                   <h5>R$ 80,00</h5>
                 </div>
               </div>
             </div>
 
-            <div class="card-footer text-center">
+            <div class="card-footer">
               <div class="btn-group">
                 <button class="btn btn-primary">
                   <i class="fas fa-plus"></i>
-                Adicionar</button>
+                  Adicionar</button>
                 <button class="btn btn-warning">
                   <i class="fas fa-align-justify"></i>
-                Detalhe</button>
+                  Detalhe</button>
               </div>
             </div>
           </div>
         </div>
 
 
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="card">
 
             <div class="card-header">
@@ -60,32 +127,32 @@
 
             <div class="card-body">
               <img 
-              class="card-img" 
-              src="https://cdn.pixabay.com/photo/2020/04/16/20/38/skirt-5052288_1280.jpg"> 
+                class="card-img imagem" 
+                src="https://cdn.pixabay.com/photo/2020/04/16/20/38/skirt-5052288_1280.jpg"> 
               
-              <div class="card-title text-center mt-2">
+              <div class="card-title mt-2">
                 <div class="badge badge-dark badge-pill">
                   <h5>R$ 60,00</h5>
                 </div>
               </div>
             </div>
 
-            <div class="card-footer text-center">
+            <div class="card-footer ">
               <div class="btn-group">
                 <button class="btn btn-primary">
                   <i class="fas fa-plus"></i>
-                Adicionar</button>
+                  Adicionar</button>
                 <button class="btn btn-warning">
                   <i class="fas fa-align-justify"></i>
-                Detalhe</button>
+                  Detalhe</button>
               </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div class="row">
-        <div class="col-6">
+      <div class="row mt-2">
+        <div class="col-md-6">
           <div class="card">
 
             <div class="card-header">
@@ -94,31 +161,31 @@
 
             <div class="card-body">
               <img 
-              class="card-img" 
-              src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Camisa-polo-branca_%282%29.jpg"> 
+                class="card-img imagem" 
+                src="https://upload.wikimedia.org/wikipedia/commons/1/1b/Camisa-polo-branca_%282%29.jpg"> 
               
-              <div class="card-title text-center mt-2">
+              <div class="card-title mt-2">
                 <div class="badge badge-dark badge-pill">
                   <h5>R$ 35,00</h5>
                 </div>
               </div>
             </div>
 
-            <div class="card-footer text-center">
+            <div class="card-footer">
               <div class="btn-group">
                 <button class="btn btn-primary">
                   <i class="fas fa-plus"></i>
-                Adicionar</button>
+                  Adicionar</button>
                 <button class="btn btn-warning">
                   <i class="fas fa-align-justify"></i>
-                Detalhe</button>
+                  Detalhe</button>
               </div>
             </div>
           </div>
         </div>
 
 
-        <div class="col-6">
+        <div class="col-md-6">
           <div class="card">
 
             <div class="card-header">
@@ -127,24 +194,24 @@
 
             <div class="card-body">
               <img 
-              class="card-img" 
-              src="https://cdn.pixabay.com/photo/2015/10/02/20/16/sneakers-968964_1280.jpg"> 
+                class="card-img imagem" 
+                src="https://cdn.pixabay.com/photo/2015/10/02/20/16/sneakers-968964_1280.jpg"> 
               
-              <div class="card-title text-center mt-2">
+              <div class="card-title mt-2">
                 <div class="badge badge-dark badge-pill">
                   <h5>R$ 100,00</h5>
                 </div>
               </div>
             </div>
 
-            <div class="card-footer text-center">
+            <div class="card-footer">
               <div class="btn-group">
                 <button class="btn btn-primary">
                   <i class="fas fa-plus"></i>
-                Adicionar</button>
+                  Adicionar</button>
                 <button class="btn btn-warning">
                   <i class="fas fa-align-justify"></i>
-                Detalhe</button>
+                  Detalhe</button>
               </div>
             </div>
           </div>
@@ -153,14 +220,19 @@
 
     </div>
 
-
-
-
-
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" 
+            integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" 
+            crossorigin="anonymous">              
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" 
+            integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" 
+            crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" 
+            integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" 
+            crossorigin="anonymous">            
+    </script>
   </body>
 </html>

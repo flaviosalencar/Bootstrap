@@ -1,0 +1,12 @@
+.imagem{
+	height: 300px;
+	width: 300px;
+	object-fit: contain;
+}
+
+#carrinho{
+	font-size: 30px;
+}
+#titulo{
+	font-size: 30px;
+}
